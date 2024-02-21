@@ -280,7 +280,7 @@ shopt -s nullglob
 
 # Maybe update the language packs.
 if [ "$WP_PPM_GENERATE_LANG_PACKS" != "" ]; then
-  WP_PPM_LANG_PACKS=(${WP_PPM_LANG_PACKS_BASE_PATH}-*.po)
+  WP_PPM_LANG_PACKS=(${WP_PPM_LANG_PACKS_BASE_PATH}-en_US.po)
   WP_PPM_LANG_PACKS_COUNT=${#WP_PPM_LANG_PACKS[@]}
 
   echo "ℹ️ Found $WP_PPM_LANG_PACKS_COUNT language pack(s) to generate"
